@@ -1,0 +1,337 @@
+@import'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body{
+    background: #F5F5F5;
+    color: #67727A;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+h2{
+    font-size: 250%;
+    font-weight: 700;
+    text-align: center;
+    padding-top:2%; 
+    font-family: 'Alegreya Sans', sans-serif;
+    color: aliceblue;
+}
+h3{
+    font-size: 175%;
+    line-height: 155%;
+    padding: 5% 0;
+    font-weight: 400px;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: aliceblue;
+}
+p{
+    font-size: 160%;
+    line-height: 150%;
+    padding: 3%;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: justify;
+    color: aliceblue;
+    
+}
+img{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
+}
+header{
+    background: #6991AC;
+    height: 86px;
+    width: 100%;
+    
+}
+.header-inner{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.logo{
+    height: 60px;
+    width: 200px;
+    background-image: url("logo.png");
+    float: left;
+    margin: 20px;
+}
+
+/*====start navigation bar=====*/
+nav{
+    float: right;
+    padding: 25px 20px 0px 0px; 
+}
+
+ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    font-size: 150%;
+    padding: 10px;
+    float: left;
+}
+nav ul li a{
+    color: aqua;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: blue;
+}
+.current{
+    color:darkslateblue;
+}
+
+.baner-area{
+    width: 100%;
+    background: #5887A6;
+}
+.baner-inner{
+    max-width: 1100px;
+    margin: 0px auto;
+}
+.one-fourth{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+#html{
+    background: #F1A07F;
+}
+#css{
+    background: #B8B1A1;
+}
+#seo{
+    background: #9AD6CC;
+}
+#social{
+    background: #97A9BB;
+}
+.one-fourth i{
+    font-size: 500%;
+    color: #F0F0F0;
+    padding: 13% 0 4% 0;
+}
+
+.inner-wraper{
+    float: left;
+    width: 100%;
+    background: #B9CFD9;
+}
+article{
+    float: left;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+}
+.tablet{
+    background: #B9CFD9;
+}
+aside{
+    float: right;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+.tablet2{
+    background: #97A9BB;
+}
+
+
+.inner-wraper-2{
+    float: left;
+    width: 100%;
+    background: #B9CFD9;
+}
+.mobile{
+    background: #B9CFD9;
+    float: right;;
+}
+.mobile-2{
+    background: #B7B1A1;
+    float: left;
+}
+.desktop-2{
+    background: #F1A07D;
+}
+.inner-wraper-3{
+    float: left;
+    width: 100%;
+    background: #AADCD2;
+}
+
+.one-third{
+    width: 33.3333333%;
+    float: left;
+    text-align: center;
+}
+
+#google{
+    background: #97A8BC;
+}
+#marketing{
+    background: #B7B1A1;
+}
+#customers{
+    background: #9AD6CC;
+}
+.smiley{
+    background: #9AD6CC;
+    padding: 0 0 1%;;
+    clear: both;
+}
+
+footer{
+    background: #5988A7;
+    width: 100%;
+}
+.social{
+    list-style: none;
+    text-align: center;
+}
+.social li{
+    display: inline;
+}
+.social i{
+    font-size: 460%;
+    margin: 1%;
+    padding: 5% 5% 5% 4%;
+    color: #B9CFD9;
+}
+.social i:hover{
+    color: #EDEDEB;
+}
+footer.second{
+    border-top: 1px solid #AADCD2;
+    background: #473F4D;
+    max-height: 55px;
+    margin: 0px;
+}
+footer.second p{
+    text-align: center;
+    padding: 5px 0 9px 0;
+}
+
+/*=========================MEDIA SCREEN===============*/
+
+@media only screen and (max-width: 800px){
+    h2{
+        font-size: 150%;
+    }
+    h3{
+        font-size: 125%;
+    }
+    p{
+        font-size: 120%;
+    }
+    header{
+        position: absolute;
+    }
+    .logo{
+        margin: 11px 0 -72px 7px;
+        background: url(logo.png) no-repeat center;
+        
+    }
+    
+    
+    .menu-icon{
+        display:block;
+        height: 40px;
+        width: 40px;;
+        background: url(menu-icon1.png) no-repeat 98% center;
+        float: right;
+        margin: -10px -4px -56px 0;
+        cursor: pointer;
+        padding: 10px;
+    }
+    .header-inner{
+        width: 100%;
+        height: auto;
+    }
+    header nav ul{
+       overflow: hidden;
+        height: 0px;
+        margin: 45px -20px 0px 0;
+        font-size: 10px;
+        background: #6991AC;
+
+    }
+    header nav ul.open{
+        height: auto;
+    }
+    
+    header nav ul li{
+        width: 100%;
+        display: block;
+        margin: 0px 41px 11px 25px;
+        float: none;
+        
+    }
+    header nav ul li a{
+        display: block;
+        text-align: center;
+        padding: 11px 40px 0px 0px;
+            }
+    
+    
+    .baner-area{
+        padding-top: 86px;
+    }
+    .one-fourth{
+        float: left;
+        width: 100%;
+    }
+    .one-fourth i{
+        padding: 4% 0 1% 0;
+    }
+    article{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+    .one-third{
+        width: 100%;
+    }
+    .social i{
+        font-size: 130%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
